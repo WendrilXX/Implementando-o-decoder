@@ -233,42 +233,6 @@ Output: [batch, seq_decoder, d_v]
 
 ---
 
-## Funcionalidades Principais
-
-| Componente | Arquivo | Status |
-|---|---|---|
-| Máscara Causal | tarefa1_mascara_causal.py | Implementado |
-| Softmax Estável | tarefa1_mascara_causal.py | Implementado |
-| Cross-Attention | tarefa2_cross_attention.py | Implementado |
-| MockVocabulary | tarefa3_loop_autoregressive.py | Implementado |
-| Generate Next Token | tarefa3_loop_autoregressive.py | Implementado |
-| Loop Auto-Regressivo | tarefa3_loop_autoregressive.py | Implementado |
-| Argmax Decoding | tarefa3_loop_autoregressive.py | Implementado |
-| Coordenador | main.py | Implementado |
-
----
-
-## Aprendizados Esperados
-
-Após completar este laboratório, você será capaz de:
-
-1. Implementar mascaramento causal em atenção
-2. Construir mecanismos de cross-attention
-3. Simular loops de decodificação auto-regressivas
-4. Entender o pipeline completo do Decoder Transformer
-5. Trabalhar com álgebra linear em redes neurais
-
----
-
-## Notas Importantes
-
-- **Reprodutibilidade**: Todos os arquivos usam `np.random.seed(42)`
-- **Sem Dependências Externas**: Apenas NumPy e Math (bibliotecas padrão)
-- **Simulação**: Os tensores de encoder/decoder e pesos são fictícios (aleatórios)
-- **Educacional**: Foco em clareza, não em performance otimizada
-
----
-
 ## Referências
 
 - Vaswani et al. (2017) - "Attention Is All You Need" (Paper original Transformer)
