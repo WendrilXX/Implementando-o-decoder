@@ -1,4 +1,4 @@
-# Laboratório 2: Implementando o Decoder do Transformer
+# Laboratório 3: Implementando o Decoder do Transformer
 
 ## Estrutura do Projeto
 
